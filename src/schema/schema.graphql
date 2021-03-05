@@ -1,0 +1,20 @@
+# schema 
+
+# qyery 
+type  Query{
+    helloWorld :String!
+}
+
+# mutation 
+type Mutation{ 
+    addUser(
+    name:String!, 
+    bio:String
+    ):user!
+} 
+# data
+    type user {
+     id:ID 
+     name:String
+      bio:String 
+     }
